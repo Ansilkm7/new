@@ -1,0 +1,161 @@
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #005f73;
+    color: white;
+    padding: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: context-menu;
+}
+
+.header:hover{
+    color: beige;
+}
+
+body{
+    margin: 0;
+}
+
+#a{
+    float: left;
+    margin-left: 40px;
+}
+
+.service{
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.service:hover{
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color:beige;
+}
+
+.about{
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.about:hover{
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color:beige;
+}
+
+.contact{
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.contact:hover{
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color:beige;
+}
+
+#image{
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100.8%;
+}
+
+.main{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family:"Jersey 20",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+#inner-text{
+    position: absolute;
+    top: 20%;
+    bottom: 50%;
+    left: 33%;
+    right: 50%;
+    background-color: rgba(0,0,0,0.5);
+    height: 350px;
+    width: 35%;
+    border-radius: 10px;
+}
+
+#inner-text:hover{
+    cursor: context-menu;
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke-color:violet;
+}
+
+#button{
+    color: white;
+    text-decoration: none;
+    font-family: "Saira Semi Condensed",sans-serif;
+    font-weight: bold;
+    background-color: orange;
+    height: 10px;
+    width: 20px;
+    border-radius: 6px;
+}
+
+#button:hover{
+    background-color: orangered;
+    cursor: context-menu;
+}
+
+.footer{
+
+}
+
+.down{
+    vertical-align: middle;
+    height: 180px;
+    width: 100.8%;
+    
+    text-align: center;
+    font-family: "Saira Semi Condensed",sans-serif;
+}
+.click{
+    text-decoration: none;
+    color: blue;
+    font-family: "Saira Semi Condensed",sans-serif;
+    font-weight: bolder;
+}
+
+.click:hover{
+    cursor: pointer;
+}
+
+.copyright{
+    height: 60px;
+    width: 100.8%;
+    background-color: #005f73;
+    text-align: center;
+    font-family: "Saira Semi Condensed",sans-serif;
+    color: azure;
+}
+
+#copy{
+    margin-top: 0px;
+    padding-top: 15px;
+}
